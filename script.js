@@ -102,7 +102,7 @@ L.marker([-10.27796, -36.5644]).addTo(map)
 L.marker([-10.27996, -36.5659]).addTo(map)
     .bindPopup('Tentativa de homicídio')
 
-L.marker([]).addTo(map)
+/*L.marker([]).addTo(map)
     .bindPopup('')
     .openPopup();
 
@@ -417,3 +417,4 @@ L.marker([]).addTo(map)
 L.marker([]).addTo(map)
     .bindPopup('')
     .openPopup();
+*/
