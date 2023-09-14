@@ -16,12 +16,20 @@ button {
 }
 
 .whatsapp-button {
-    font-size:48px;
-    color: #25D366;
     background-color: lightgray;
     border-radius: 10px;
     position: fixed;
-    bottom: 20px; 
+    bottom: 40px; 
+    right: 20px; 
+    z-index: 9999; 
+}
+
+.whatsapp-p{
+    color: #25D366;
+    background-color: lightgray;
+    border-radius: 0px 0px 10px 10px;
+    position: fixed;
+    bottom: 17px; 
     right: 20px; 
     z-index: 9999; 
 }
