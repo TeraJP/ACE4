@@ -2,37 +2,82 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#buttons {
-    text-align: center;
-}
-
 #map {
     height: 100vh;
     width: 100%;;
 }
 
-button {
-    cursor: pointer;
+body {
+    background-image: url('images/background-frontpage.png') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+
+
+.identificacao {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.identificacao h1 {
+    color: aliceblue;
+}
+
+.identificacao img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Adicione esses estilos para personalização dos botões */
+
+.btn-indicador,
+.btn-calor {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #C6151C; /* Vermelho - você pode alterar para a cor desejada */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.btn-indicador:hover,
+.btn-calor:hover {
+    background-color: #c82333; /* Vermelho mais escuro ao passar o mouse - ajuste conforme necessário */
+}
+
+
+/* Estilos melhorados para o botão do WhatsApp */
 
 .whatsapp-button {
-    background-color: lightgray;
+    background-color: #444645; /* Cor verde do WhatsApp */
+    border: none;
     border-radius: 10px;
+    padding: 15px;
     position: fixed;
-    bottom: 40px; 
-    right: 20px; 
-    z-index: 9999; 
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adicionei uma sombra mais sutil */
+    transition: background-color 0.3s, transform 0.3s;
 }
 
-.whatsapp-p{
-    color: #25D366;
-    background-color: lightgray;
-    border-radius: 0px 0px 10px 10px;
-    position: fixed;
-    bottom: 17px; 
-    right: 20px; 
-    z-index: 9999; 
+.whatsapp-button:hover {
+    background-color: #bbd4d1; /* Cor mais escura ao passar o mouse */
+    transform: scale(1.05); /* Efeito de escala ao passar o mouse */
 }
+
+
 
 
 @media (max-width: 450px){
