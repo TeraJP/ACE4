@@ -201,9 +201,6 @@ L.marker([-10.28231, -36.558]).addTo(map)
 L.marker([-10.27796, -36.5660]).addTo(map)
     .bindPopup('Maria da Penha')
 
-L.marker([-10.27988, -36.656195]).addTo(map)
-    .bindPopup('Mandato de Prisão')
-
 L.marker([-10.28181, -3656465]).addTo(map)
     .bindPopup('Roubo')
 
