@@ -278,7 +278,7 @@ L.marker([-10.29256, -36.57762]).addTo(map)
     .bindPopup('Agressão')
     .openPopup();
 
-L.marker([-10.28387, --36.56310]).addTo(map)
+L.marker([-10.28387, -36.56310]).addTo(map)
     .bindPopup('')
     .openPopup();
 
@@ -290,7 +290,7 @@ L.marker([-10.27254, -36.54494]).addTo(map)
     .bindPopup('Acusado de Estrupo')
     .openPopup();
 
-L.marker([-10.28387, --36.56320]).addTo(map)
+L.marker([-10.28387, -36.56320]).addTo(map)
     .bindPopup('Atropelado')
     .openPopup();
 
@@ -314,7 +314,7 @@ L.marker([-10.2855, -36.57558]).addTo(map)
     .bindPopup('Abuso')
     .openPopup();
 
-L.marker([--10.27796, -36.5670]).addTo(map)
+L.marker([-10.27796, -36.5670]).addTo(map)
     .bindPopup('Abuso')
     .openPopup();
 
@@ -370,7 +370,7 @@ L.marker([-10.28259, -36.55450]).addTo(map)
     .bindPopup('Arma de Fogo')
     .openPopup();
 
-L.marker([-10.28387, --36.56330]).addTo(map)
+L.marker([-10.28387, -36.56330]).addTo(map)
     .bindPopup('Tráfigo de Drogas')
     .openPopup();
 
